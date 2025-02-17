@@ -1,0 +1,8 @@
+"0","top_5_states <- covid %>%"
+"0","  filter(date == max(date)) %>%"
+"0","  group_by(state) %>%"
+"0","  summarize(total_cases = sum(cases)) %>%"
+"0","  arrange(desc(total_cases)) %>%"
+"0","  slice(1:5)"
+"0",""
+"0","print(top_5_states)"

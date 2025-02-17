@@ -1,0 +1,7 @@
+"0","worst_counties <- covid %>%"
+"0","  filter(cases > 0 & county != ""Unknown"") %>% "
+"0","  mutate(death_case_ratio = 100 * (deaths / cases)) %>% "
+"0","  arrange(desc(death_case_ratio)) %>%  "
+"0","  slice(1:5)"
+"0",""
+"0","print(worst_counties)"

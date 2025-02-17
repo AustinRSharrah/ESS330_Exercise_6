@@ -1,0 +1,5 @@
+"0","top_5<-covid%>%"
+"0","  arrange(max(date))%>%"
+"0","  slice(1:5)"
+"0",""
+"0","print(top_5)"
